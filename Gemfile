@@ -37,3 +37,4 @@ gem 'mysql2'
 gem "hoptoad_notifier"
 gem "jquery-rails"
 gem "annotate"
+gem "fb_graph"
