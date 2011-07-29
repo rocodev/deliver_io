@@ -2,6 +2,10 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
+
+gem 'devise', :git => 'https://github.com/plataformatec/devise.git'
+gem "omniauth"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -29,6 +33,7 @@ gem 'mysql2'
 # group :development, :test do
 #   gem 'webrat'
 # end
-gem "devise"
+
 gem "hoptoad_notifier"
 gem "jquery-rails"
+gem "annotate"
