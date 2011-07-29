@@ -1,1 +1,7 @@
-<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+<% if current_user %>
+    Hi ! <%= current_user.email %>
+     <%= link_to("Sign out", logout_path)%>
+<% else %>
+    <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+<% end %>
+
