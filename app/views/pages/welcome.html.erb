@@ -5,3 +5,4 @@
     <%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
 <% end %>
 
+<%= params[:signed_request].inspect %>
