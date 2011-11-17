@@ -1,15 +1,23 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.7'
+gem 'rails', '3.1.1'
 
 
 gem 'devise', :git => 'https://github.com/plataformatec/devise.git'
 gem "omniauth"
+gem "omniauth-facebook"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.0'
+
+gem 'json'
+
+gem 'sass-rails'
+#gem 'compass', :git => "git://github.com/chriseppstein/compass.git"
+gem 'coffee-script'
+gem 'uglifier'
 
 # Use unicorn as the web server
 # gem 'unicorn'
